@@ -4,13 +4,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pakeezah</title>
     <link rel='icon' href='favicon.ico' type='image/x-icon'/> 
+    <style>
+      input{
+        background: burlywood; 
+        height: 30px;
+        border: cornsilk;
+        border-style: solid;"
+      }
+      select{
+        background: burlywood; 
+        height: 30px;
+        border: cornsilk;
+        border-style: solid;"
+      }
+      button{
+      border-style: solid; width: 60ppx; 
+      color:cornsilk;height:30px;font-family: 'Times New Roman', Times, serif;font-weight: 800;font-size: 20px; color: burlywood;
+          padding:5px;
+          
+    }
+      
+    </style>
+  
   
 </head>
 <body style="background-color: rgb(245, 236, 225);">
  
+    <p style="margin-left: 560px;color: rgb(252, 189, 94);font-size: 50px; font-weight: 900;opacity: 0.5; ">Place your Order</p>
+
 
     <form style="background: burlywood;color:rgb(58, 36, 12); font-family: cursive;text-align: justify;" action="_blank">
-       
+       <br><br>
         <label for="pr">Product:</label>
         <select id="pr" name="pr">
         <option value="-">-</option>
@@ -26,7 +50,7 @@
         <option value="RECYCLED HANDMADE PAPER NOTECARDS (ECO-PRINTED)">RECYCLED HANDMADE PAPER NOTECARDS (ECO-PRINTED)</option>
         
         </select>
-<br>
+<br><br>
         <label for="qty">Quantity:</label>
         <select id="qty" name="qty">
         <option value="1">1</option>
@@ -40,9 +64,9 @@
 
         
         <label for="address">Address:</label>
-        <input type="text" id="address" name="address" size="100" required><br>
+        <input type="text" id="address" name="address" size="100" required><br>,<br>
         <label for="pin">Pin Code:</label>
-        <input type="number" id="pin" name="pin" size="6" required><br> 
+        <input type="number" id="pin" name="pin" size="6" required><br> <br>
         <label for="phno">Phone Number:</label>
         <input type="tel" id="phno" name="phno" placeholder="00000-00000" pattern="[0-9]{5}-[0-9]{5}" required><br>
 <br>
@@ -60,8 +84,8 @@
         
             <a href="index.html"><b><button type="button" onclick="">Submit</button></b></a>
     </a>
-    <br>
-    <a href="products.html"> <b>GO BACK</b></a>
+    <br><br>
+    <button><a href="products.html"> <b>GO BACK</b></a></button>
 
 
     </form>
